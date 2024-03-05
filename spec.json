@@ -1,0 +1,18 @@
+{
+  "initial": 0,
+  "estadoFinal": 4,
+  "white" : "_",
+  "transitions": [
+    {"from": 0,"to": 1,"read": "a","white": "A","dir": "R"},
+    {"from": 1,"to": 1,"read": "a","white": "a","dir": "R"},
+    {"from": 1,"to": 1,"read": "B","white": "B","dir": "R"},
+    {"from": 1,"to": 2,"read": "b","white": "B","dir": "L"},
+    {"from": 2,"to": 2,"read": "a","white": "a","dir": "L"},
+    {"from": 2,"to": 2,"read": "B","white": "B","dir": "L"},
+    {"from": 2,"to": 0,"read": "A","white": "A","dir": "R"},
+    {"from": 0,"to": 4,"read": "_","white": "_","dir": "R"},
+    {"from": 0,"to": 3,"read": "B","white": "B","dir": "R"},
+    {"from": 3,"to": 3,"read": "B","white": "B","dir": "R"},
+    {"from": 3,"to": 4,"read": "_","white": "_","dir": "R"}
+  ]
+}
