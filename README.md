@@ -18,7 +18,7 @@ No terminal, navegue até o diretório onde estão seus arquivos .java e o arqui
 
 Após a compilação, execute o programa usando o comando java com a mesma opção -classpath para especificar o caminho para o arquivo gson-2.8.8.jar e o nome da classe principal (TURING neste caso), sem a extensão .java:
 
-'''java -classpath /caminho/do/seu/projeto/lib/gson-2.8.8.jar TURING'''
+```java -classpath /caminho/do/seu/projeto/lib/gson-2.8.8.jar TURING```
 
 Isso processará as instruções da Máquina de Turing conforme especificado no arquivo JSON de especificações (spec.json) e a palavra de entrada do arquivo de texto (entrada.txt), gerando a saída da fita no arquivo saida.txt e exibindo no terminal se a fita foi aceita (1) ou rejeitada (0).
 
